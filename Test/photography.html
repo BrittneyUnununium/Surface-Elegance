@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/png" href="http://surface-elegance.com/icon.png" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Surface Elegance: Photography</title>
+<meta name="description" content="Interior details, finishes, accent painting, wall murals; we've got you covered!" />
+<meta name="keywords" content="surface, elegance, fine, interior, finishes, finishing, detail, accent, painting, painter, painters, home, house, decor, decorative, wall, art, mural, project, build, hire, volunteer, travel, family, charlottesville, va, virginia" />
+
+		<script>
+			function openModal(n) {
+				document.getElementById('photogallery' + n).style.display = "block";
+				}
+			function closeModal(n) {
+				document.getElementById('photogallery' + n).style.display = "none";
+				}
+			var slideIndex = 1;
+					showSlides(slideIndex,0);
+			function plusSlides(n, x) {
+				showSlides(slideIndex += n, x);
+				}
+			function currentSlide(n,x) {
+				showSlides(slideIndex = n,x);
+				}
+			function showSlides(n,x) {
+				var i;
+				var slides = document.getElementsByClassName("gallery" + x);
+				var dots = document.getElementsByClassName("demo");
+				var captionText = document.getElementById("caption");
+				if (n > slides.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+				captionText.innerHTML = dots[slideIndex-1].alt;
+				}
+		</script>
+
+		<style type="text/css">
+			BODY {
+			background: url(/images/leaves_gradient_background.png) no-repeat fixed center top #000;
+			}
+		</style>
+	
+		<link href="/css/common.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	
+	<body>
+	
+			<div class="Wrapper">
+			
+			<!-- LOGO AREA -->
+			
+			<!-- NAVIGATION BAR -->
+			<nav>
+			<div class= "NavWrapper NavTopBottomBordersOut">
+					<a href="index.html">HOME</a>
+					<a href="projects.html">PROJECTS</a>
+					<a href="services.html">SERVICES</a>
+					<a href="artwork.html">ARTWORK</a>
+					<a href="photography.html">PHOTOGRAPHY</a>
+					<a href="volunteer.html">VOLUNTEER</a>
+					<a href="family.html">FAMILY</a>
+			</div>
+			</nav>
+			
+			<!-- CONTENT AREA -->
+			<div class="WrapperBG">
+				<div class="WrapperBG Content">
+					<h2>Favorite Photo Shots</h2><br />
+					These are some of my favorite shots I have taken over the years.  Some were taken with my Olympus Digital Zoom and more recent photos (2009) have been taken with my new Nikon D-40 Digital SLR.<br />
+					<br />					
+					<i>Click on one of the images to open the photo gallery:</i><br />
+			<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/photography/21Curves01.jpg" height="auto" width="200px" onclick="openModal(1);currentSlide(1,1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/photography/mantis.jpg" height="auto" width="200px" onclick="openModal(1);currentSlide(2,1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/photography/icetwigbroad.jpg" height="auto" width="200px" onclick="openModal(1);currentSlide(3,1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/photography/icetwigmelt.jpg" height="auto" width="200px" onclick="openModal(1);currentSlide(4,1)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="photogallery1" class="modal">
+			<span class="close cursor" onclick="closeModal(1)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery1">
+		<div class="numbertext">1 / 8</div>
+			<img src="images/photography/21Curves01.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">2 / 8</div>
+			<img src="images/photography/mantis.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">3 / 8</div>
+			<img src="images/photography/icetwigbroad.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">4 / 8</div>
+			<img src="images/photography/icetwigmelt.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">5 / 8</div>
+			<img src="images/photography/icetwigzoom1.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">6 / 8</div>
+			<img src="images/photography/pinkgreenbarn.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">7 / 8</div>
+			<img src="images/photography/snowfence.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">8 / 8</div>
+			<img src="images/photography/springfence.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/photography/21Curves01.jpg" height="140px" width="auto" onclick="currentSlide(1,1)" alt="During the fall found a stump with some interesting textures and loved the way the layers of leaves in the background interacted with that stump.">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/photography/mantis.jpg" height="140px" width="auto" onclick="currentSlide(2,1)" alt="This lovely fella has been gracing my garden for years and has left behind many of his kin.">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/photography/icetwigbroad.jpg" height="140px" width="auto" onclick="currentSlide(3,1)" alt="A broader zoom showing that it's a tip of a branch in a creek that had frozen over after bowing into the water from the weight of the ice.">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/photography/icetwigmelt.jpg" height="140px" width="auto" onclick="currentSlide(4,1)" alt="Later in the winter I went back after the snow had melted to get a picture of the area just to note to myself how a moment can make a difference in what you see in the world. See if you can tell what had to happen to make the ice sculpture. Some of the elements had to move.">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/photography/icetwigzoom1.jpg" height="140px" width="auto" onclick="currentSlide(5,1)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/photography/pinkgreenbarn.jpg" height="140px" width="auto" onclick="currentSlide(6,1)" alt="We were traveling home from North Carolina and spotted this barn just after a rainfall.">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/photography/snowfence.jpg" height="140px" width="auto" onclick="currentSlide(7,1)" alt="Same field; once in the spring, once during the winter and on opposite sides of the fence.">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/photography/springfence.jpg" height="140px" width="auto" onclick="currentSlide(8,1)" alt="Same field; once in the spring, once during the winter and on opposite sides of the fence.">
+		</div>
+		</div>
+		</div>
+				</div>
+			</div>
+			</div>
+	
+			<div class="Footer Wrapper">
+				<p>
+				<br />
+				© 2009-2017 | Surface Elegance
+				<br />
+				Website created by Brittney Oftedahl
+				<p>
+				<br />
+			</div>
+
+	</body>
+</html>	

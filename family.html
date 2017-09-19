@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/png" href="http://surface-elegance.com/icon.png" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Surface Elegance: Family</title>
+<meta name="description" content="Interior details, finishes, accent painting, wall murals; we've got you covered!" />
+<meta name="keywords" content="surface, elegance, fine, interior, finishes, finishing, detail, accent, painting, painter, painters, home, house, decor, decorative, wall, art, mural, project, build, hire, volunteer, travel, family, charlottesville, va, virginia" />
+
+		<script>
+			function openModal(n) {
+				document.getElementById('familygallery' + n).style.display = "block";
+				}
+			function closeModal(n) {
+				document.getElementById('familygallery' + n).style.display = "none";
+				}
+			var slideIndex = 1;
+					showSlides(slideIndex,0);
+			function plusSlides(n, x) {
+				showSlides(slideIndex += n, x);
+				}
+			function currentSlide(n,x) {
+				showSlides(slideIndex = n,x);
+				}
+			function showSlides(n,x) {
+				var i;
+				var slides = document.getElementsByClassName("gallery" + x);
+				var dots = document.getElementsByClassName("demo");
+				var captionText = document.getElementById("caption");
+				if (n > slides.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+				captionText.innerHTML = dots[slideIndex-1].alt;
+				}
+		</script>
+
+		<style type="text/css">
+			BODY {
+			background: url(/images/leaves_gradient_background.png) no-repeat fixed center top #000;
+			}
+		</style>
+
+		<link href="/css/common.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	
+	<body>
+	
+			<div class="Wrapper">
+			
+			<!-- LOGO AREA -->
+			
+			<!-- NAVIGATION BAR -->
+			<nav>
+			<div class= "NavWrapper NavTopBottomBordersOut">
+					<a href="index.html">HOME</a>
+					<a href="projects.html">PROJECTS</a>
+					<a href="services.html">SERVICES</a>
+					<a href="artwork.html">ARTWORK</a>
+					<a href="photography.html">PHOTOGRAPHY</a>
+					<a href="volunteer.html">VOLUNTEER</a>
+					<a href="family.html">FAMILY</a>
+			</div>
+			</nav>
+			
+			<!-- CONTENT AREA -->
+			<div class="WrapperBG">
+				<div class="WrapperBG Content">
+					<h2>Welcome to the Bare - Schaefer - Kocik Family!</h2><br />
+					I am part of a large extended family. My immediate family started with my parents, Betty Ann and Bob Bare. I was born first in 1953 and then my brother followed in 1955. My father passed away in 1995 and my brother in 2016. My brother had three children and between the oldest two I have seven great nieces and nephews! I had three children myself and have one grandson and one granddaughter. I also have three stepsons three grandchildren on my husband Dennis' side.<br />
+					<br />
+					Starting with my mom and dad (the Bare Clan), there's my brother Robert and myself, along with all our various children!<br />
+					<br />
+					<hr />
+					<br />
+					<h1>Robert's Clan:</h1><br />
+                        Robert and his wife Maria (Lorente)<br />
+                        Robert and Maria's son Robert James III<br />
+                        Robert's son Ricardo Bare and his wife Angie<br />
+                        Their children Sophia, Soren, Halo, Layla and Michael<br />
+                        Robert's Daughter Christina (Bare) Roberson and her husband Charlie<br />
+						Their children Matt and Katie<br />
+					<br />
+					<hr />
+					<br />
+					<h1>Karen's Clan:</h1><br />
+                        Karen and her husband Dennis Kocik<br />
+                        Karen's son Brandon Bannerman and partner Brittney<br />
+                        His son Wesley and stepson Logan<br />
+                        Karen's son Chris Schaefer and his daughter Savannah<br />
+						Karen's daughter Trisha Schaefer and partner Scott<br />
+						Dennis' son Daniel Kocik and partner Sarah<br />
+						Dennis' son Denny Kocik<br />
+						Dennis' son Devin Kocik and wife Becky<br />
+						Their children Christopher, Kaitlyn, and Eric<br />
+					<br />
+					<hr />
+					<br />
+					Our family loves to take vacations together. There are usually about 18 of us from babies to seniors. Our favorite camp out is Duck, North Carolina.<br />
+					<br />
+					My brother and I grew up overseas mostly although we had a few stints in the US from time to time. We lived in Panama, where he was born, Japan, Philippines, spent some time in Guam, Hong Kong, Hawaii and almost got to go to Argentina I believe!<br />
+					<br />
+					Our parents met in Lakehurst, New Jersey. My dad was in the Navy, studying to be a meteorologist and my mom lived in Toms River. My dad and his family had lived in Arkansas all their lives up till then.<br />
+			<br />
+			<hr />
+			<br />
+			<h1>Family Gallery</h1><br />
+			<i>Click on one of the images to open the photo gallery:</i><br />
+			<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/people/th/karen_happy_th.jpg" height="200px" width="auto" onclick="openModal(1);currentSlide(1,1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/people/th/dennis_london_th.jpg" height="200px" width="auto" onclick="openModal(1);currentSlide(2,1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/people/th/best_buds_th.jpg" height="200px" width="auto" onclick="openModal(1);currentSlide(3,1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/people/th/chris_in_army2_th.jpg" height="200px" width="auto" onclick="openModal(1);currentSlide(4,1)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="familygallery1" class="modal">
+			<span class="close cursor" onclick="closeModal(1)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery1">
+		<div class="numbertext">1 / 12</div>
+			<img src="images/people/karen_happy.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">2 / 12</div>
+			<img src="images/people/dennis_london.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">3 / 12</div>
+			<img src="images/people/best_buds.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">4 / 12</div>
+			<img src="images/people/chris_in_army2.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">5 / 12</div>
+			<img src="images/people/trisha_funnin.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">6 / 12</div>
+			<img src="images/people/daniel.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">7 / 12</div>
+			<img src="images/people/brandon.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">8 / 12</div>
+			<img src="images/people/bare_clan.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">9 / 12</div>
+			<img src="images/people/boo2.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">10 / 12</div>
+			<img src="images/people/mommy.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">11 / 12</div>
+			<img src="images/people/john.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">12 / 12</div>
+			<img src="images/people/michelle_alan.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/karen_happy.jpg" height="140px" width="auto" onclick="currentSlide(1,1)" alt="Oh, I'm H.A.P.P.Y. -From ''Only When I Laugh''">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/dennis_london.jpg" height="140px" width="auto" onclick="currentSlide(2,1)" alt="Hubby Dennis">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/best_buds.jpg" height="140px" width="auto" onclick="currentSlide(3,1)" alt="Best buds! Page & me Oct 2008">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/chris_in_army2.jpg" height="140px" width="auto" onclick="currentSlide(4,1)" alt="Chris joins the Army!">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/trisha_funnin.jpg" height="140px" width="auto" onclick="currentSlide(5,1)" alt="Trisha funnin' as one of her many aliases!">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/daniel.jpg" height="140px" width="auto" onclick="currentSlide(6,1)" alt="Daniel chillin' in Kitty Hawk, NC">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/brandon.jpg" height="140px" width="auto" onclick="currentSlide(7,1)" alt="Brandon in WA">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/bare_clan.jpg" height="140px" width="auto" onclick="currentSlide(8,1)" alt="Maria, Robert, Boo & Chris">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/boo2.jpg" height="140px" width="auto" onclick="currentSlide(9,1)" alt="My coolest little buddy Boo in the best coat ever!">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/mommy.jpg" height="140px" width="auto" onclick="currentSlide(10,1)" alt="Head of the Bare Clan">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/john.jpg" height="140px" width="auto" onclick="currentSlide(11,1)" alt="Mom's cohort John">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/people/michelle_alan.jpg" height="auto" width="140px" onclick="currentSlide(12,1)" alt="The Drags! Michelle & Alan, Dennis' sister and hubby">
+		</div>
+		
+		</div>
+		</div>
+				</div>
+			</div>
+			</div>
+	
+			<div class="Footer Wrapper">
+				<p>
+				<br />
+				© 2009-2017 | Surface Elegance
+				<br />
+				Website created by Brittney Oftedahl
+				<p>
+				<br />
+			</div>
+
+	</body>
+</html>

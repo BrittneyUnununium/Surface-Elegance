@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/png" href="http://surface-elegance.com/icon.png" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Surface Elegance: Artwork</title>
+<meta name="description" content="Interior details, finishes, accent painting, wall murals; we've got you covered!" />
+<meta name="keywords" content="surface, elegance, fine, interior, finishes, finishing, detail, accent, painting, painter, painters, home, house, decor, decorative, wall, art, mural, project, build, hire, volunteer, travel, family, charlottesville, va, virginia" />
+
+		<script>
+			function openModal(n) {
+				document.getElementById('artgallery' + n).style.display = "block";
+				}
+			function closeModal(n) {
+				document.getElementById('artgallery' + n).style.display = "none";
+				}
+			var slideIndex = 1;
+					showSlides(slideIndex,0);
+			function plusSlides(n, x) {
+				showSlides(slideIndex += n, x);
+				}
+			function currentSlide(n,x) {
+				showSlides(slideIndex = n,x);
+				}
+			function showSlides(n,x) {
+				var i;
+				var slides = document.getElementsByClassName("gallery" + x);
+				var dots = document.getElementsByClassName("demo");
+				var captionText = document.getElementById("caption");
+				if (n > slides.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+				captionText.innerHTML = dots[slideIndex-1].alt;
+				}
+		</script>
+
+		<style type="text/css">
+			BODY {
+			background: url(/images/leaves_gradient_background.png) no-repeat fixed center top #000;
+			}
+		</style>
+	
+		<link href="/css/common.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	
+	<body>
+	
+			<div class="Wrapper">
+			
+			<!-- LOGO AREA -->
+			
+			<!-- NAVIGATION BAR -->
+			<nav>
+			<div class= "NavWrapper NavTopBottomBordersOut">
+					<a href="index.html">HOME</a>
+					<a href="projects.html">PROJECTS</a>
+					<a href="services.html">SERVICES</a>
+					<a href="artwork.html">ARTWORK</a>
+					<a href="photography.html">PHOTOGRAPHY</a>
+					<a href="volunteer.html">VOLUNTEER</a>
+					<a href="family.html">FAMILY</a>
+			</div>
+			</nav>
+			
+			<!-- CONTENT AREA -->
+			<div class="WrapperBG">
+				<div class="WrapperBG Content">
+					<h2>Artwork</h2><br />
+					I enjoy many kinds of art medium, but especially joint compound, texture paint, and other 3D materials when I work on walls. I also enjoy making sculptures from rocks and wire.<br />
+					<br />
+					I was playing around with drywall mud one day, working with taping and mudding. I primed a piece of plywood and put a thin layer of joint compound on the surface, let it dry and then sanded it smooth and primed it again. Using 1/4" tape, I ran parallel lines diagonally in each direction and then a couple of curving lines through the straight lines. I then added a thick layer of joint compound and let it set for an hour and then pulled the tape. If you pull the tape at this point, the edges are for the most part smooth. If you let the compound dry, when you remove the tape, some of the edges pop off. This is a nice effect if you want a natural stone looking surface. I wanted the lines crisper so I chose to remove the tape right away.<br />
+					<br />
+					When the compound was fully dry, I sanded and worked to make the edges cleaner. I then primed and painted the surface a red eggshell two coats. When that was dry, I used 1" tape to tape over the same lines, making sure to center the tape over the crevice I created with the 1/4" tape. Same process above, adding a layer of compound and removing the tape.<br />
+					<br />
+					When the compound was dry again, I sanded all the new raised areas to form clean them up, primed, and then painted two coats of a soft yellow eggshell.<br />
+					<br />
+					When the paint was dry, and using 2" tape, again I taped over the last taped area, keeping it centered, applied the compound and pulled the tape. This was the last layer and when the compound was dry, I sanded, primed and painted the remaining sections a soft green.
+					The last process was to glaze the entire surface with a fibrous limey glaze.<br />
+					<br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+			<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/artwork/drywallsculpt/dwsculpt01.jpg" height="auto" width="200px" onclick="openModal(1);currentSlide(1,1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/projects/artwork/drywallsculpt/dwsculpt02.jpg" height="auto" width="200px" onclick="openModal(1);currentSlide(2,1)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="artgallery1" class="modal">
+			<span class="close cursor" onclick="closeModal(1)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery1">
+		<div class="numbertext">1 / 2</div>
+			<img src="images/projects/artwork/drywallsculpt/dwsculpt01.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">2 / 2</div>
+			<img src="images/projects/artwork/drywallsculpt/dwsculpt02.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/drywallsculpt/dwsculpt01.jpg" height="140px" width="auto" onclick="currentSlide(1,1)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/drywallsculpt/dwsculpt02.jpg" height="140px" width="auto" onclick="currentSlide(2,1)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Ros Casey's Mapping the Dark</h2><br />
+					I enrolled in Ros Casey's class called Mapping the Dark, thinking I was just going to explore the possibility of a deeper level of creativity within me that was untapped. I was not disappointed!!<br />
+					<br />
+					I created two objects that incorporated items I was interested in: rocks, metal, stone and movement. I also thought whatever I created should be interactive. The picture below shows the "amusement park" I made that my nephew could play with. All the swinging objects can be moved around and some of the objects (crystal and blue and green glass objects) could be move from one hanger to another.<br />
+					<br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/artwork/mtdproj/mtdproj02.jpg" height="200px" width="auto" onclick="openModal(2);currentSlide(1,2)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/projects/artwork/mtdproj/mtdproj03.jpg" height="200px" width="auto" onclick="openModal(2);currentSlide(2,2)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/projects/artwork/mtdproj/mtdproj04.jpg" height="200px" width="auto" onclick="openModal(2);currentSlide(3,2)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/projects/artwork/mtdproj/mtdproj05.jpg" height="200px" width="auto" onclick="openModal(2);currentSlide(4,2)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="artgallery2" class="modal">
+			<span class="close cursor" onclick="closeModal(2)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery2">
+		<div class="numbertext">1 / 6</div>
+			<img src="images/projects/artwork/mtdproj/mtdproj02.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery2">
+		<div class="numbertext">2 / 6</div>
+			<img src="images/projects/artwork/mtdproj/mtdproj03.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery2">
+		<div class="numbertext">3 / 6</div>
+			<img src="images/projects/artwork/mtdproj/mtdproj04.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery2">
+		<div class="numbertext">4 / 6</div>
+			<img src="images/projects/artwork/mtdproj/mtdproj05.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery2">
+		<div class="numbertext">5 / 6</div>
+			<img src="images/projects/artwork/mtdproj/mtdproj06.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery2">
+		<div class="numbertext">6 / 6</div>
+			<img src="images/projects/artwork/mtdproj/mtdproj01.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,2)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/mtdproj02.jpg" height="auto" width="140px" onclick="currentSlide(1,2)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/mtdproj03.jpg" height="auto" width="140px" onclick="currentSlide(2,2)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/mtdproj04.jpg" height="auto" width="140px" onclick="currentSlide(3,2)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/mtdproj05.jpg" height="auto" width="140px" onclick="currentSlide(4,2)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/mtdproj06.jpg" height="auto" width="140px" onclick="currentSlide(5,2)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/mtdproj01.jpg" height="140px" width="auto" onclick="currentSlide(6,2)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					The class does a review of anyone wanting feedback. It was suggested that I hone in on some specific elements within this sculpture and simplify.<br />
+					<br />
+					I still wanted movement, rocks, and wire; so I played around with various concepts. I found a piece of soapstone and my husband mentioned that it was easy to drill. I had some copper pipes from a plumbing project and cut the pipes to fit in two holes that I had drilled in the soapstone. I had to think of a different way to attach the wire since I drilled holes. I started wrapping the wire around the tubing, and after some trial and error was able to get a nice wrap on both sections as well as the nice holder in the middle. I then selected some rocks from my collection and made the double holder.<br />
+					<br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/artwork/mtdproj/sculpt01.jpg" height="200px" width="auto" onclick="openModal(3);currentSlide(1,3)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/projects/artwork/mtdproj/sculpt02.jpg" height="200px" width="auto" onclick="openModal(3);currentSlide(2,3)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/projects/artwork/mtdproj/sculpt03.jpg" height="200px" width="auto" onclick="openModal(3);currentSlide(3,3)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/projects/artwork/mtdproj/sculpt05.jpg" height="200px" width="auto" onclick="openModal(3);currentSlide(4,3)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="artgallery3" class="modal">
+			<span class="close cursor" onclick="closeModal(3)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery3">
+		<div class="numbertext">1 / 6</div>
+			<img src="images/projects/artwork/mtdproj/sculpt01.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery3">
+		<div class="numbertext">2 / 6</div>
+			<img src="images/projects/artwork/mtdproj/sculpt02.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery3">
+		<div class="numbertext">3 / 6</div>
+			<img src="images/projects/artwork/mtdproj/sculpt03.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery3">
+		<div class="numbertext">4 / 6</div>
+			<img src="images/projects/artwork/mtdproj/sculpt05.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery3">
+		<div class="numbertext">5 / 6</div>
+			<img src="images/projects/artwork/mtdproj/sculpt06.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery3">
+		<div class="numbertext">6 / 6</div>
+			<img src="images/projects/artwork/mtdproj/sculpt04.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,3)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,3)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/sculpt01.jpg" height="auto" width="140px" onclick="currentSlide(1,3)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/sculpt02.jpg" height="auto" width="140px" onclick="currentSlide(2,3)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/sculpt03.jpg" height="auto" width="140px" onclick="currentSlide(3,3)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/sculpt05.jpg" height="auto" width="140px" onclick="currentSlide(4,3)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/sculpt06.jpg" height="auto" width="140px" onclick="currentSlide(5,3)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/artwork/mtdproj/sculpt04.jpg" height="140px" width="auto" onclick="currentSlide(6,3)" alt="">
+		</div>
+		</div>
+		</div>
+				</div>
+			</div>
+			</div>
+	
+			<div class="Footer Wrapper">
+				<p>
+				<br />
+				© 2009-2017 | Surface Elegance
+				<br />
+				Website created by Brittney Oftedahl
+				<p>
+				<br />
+			</div>
+
+	</body>
+</html>	

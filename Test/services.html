@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/png" href="http://surface-elegance.com/icon.png" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Surface Elegance: Services</title>
+<meta name="description" content="Interior details, finishes, accent painting, wall murals; we've got you covered!" />
+<meta name="keywords" content="surface, elegance, fine, interior, finishes, finishing, detail, accent, painting, painter, painters, home, house, decor, decorative, wall, art, mural, project, build, hire, volunteer, travel, family, charlottesville, va, virginia" />
+
+		<script>
+			function openModal(n) {
+				document.getElementById('servicegallery' + n).style.display = "block";
+				}
+			function closeModal(n) {
+				document.getElementById('servicegallery' + n).style.display = "none";
+				}
+			var slideIndex = 1;
+					showSlides(slideIndex,0);
+			function plusSlides(n, x) {
+				showSlides(slideIndex += n, x);
+				}
+			function currentSlide(n,x) {
+				showSlides(slideIndex = n,x);
+				}
+			function showSlides(n,x) {
+				var i;
+				var slides = document.getElementsByClassName("gallery" + x);
+				var dots = document.getElementsByClassName("demo");
+				var captionText = document.getElementById("caption");
+				if (n > slides.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+				captionText.innerHTML = dots[slideIndex-1].alt;
+				}
+		</script>
+
+		<style type="text/css">
+			BODY {
+			background: url(/images/leaves_gradient_background.png) no-repeat fixed center top #000;
+			}
+		</style>
+	
+		<link href="/css/common.css" rel="stylesheet" type="text/css" />
+
+	</head>
+	
+	<body>
+	
+			<div class="Wrapper">
+			
+			<!-- LOGO AREA -->
+			
+			<!-- NAVIGATION BAR -->
+			<nav>
+			<div class= "NavWrapper NavTopBottomBordersOut">
+					<a href="index.html">HOME</a>
+					<a href="projects.html">PROJECTS</a>
+					<a href="services.html">SERVICES</a>
+					<a href="artwork.html">ARTWORK</a>
+					<a href="photography.html">PHOTOGRAPHY</a>
+					<a href="volunteer.html">VOLUNTEER</a>
+					<a href="family.html">FAMILY</a>
+			</div>
+			</nav>
+			
+			<!-- CONTENT AREA -->
+			<div class="WrapperBG">
+				<div class="WrapperBG Content">
+					<h2>Options are unlimited</h2><br />
+					Feel free to email if you have questions on products, processes or costs to do these projects. Send an email to Karen at the main website link. A direct link is not provided here to eliminate spam trolling.  If you'd like to schedule a local estimate or consult, call me at (434) 531-4772. <b>If you don't see something you are interested in, just make a request..</b><br />
+					<br />
+					<hr />
+					<br />
+					<h2>Stained Floors</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/floors/churchhillfloor01.jpg" height="200px" width="auto" onclick="openModal(1);currentSlide(1,1)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/projects/floors/milbyfloor.JPG" height="200px" width="auto" onclick="openModal(1);currentSlide(2,1)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery1" class="modal">
+			<span class="close cursor" onclick="closeModal(1)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery1">
+		<div class="numbertext">1 / 2</div>
+			<img src="images/projects/floors/churchhillfloor01.jpg" height="600px" width="auto">
+		</div>
+		<div class="mySlides gallery1">
+		<div class="numbertext">2 / 2</div>
+			<img src="images/projects/floors/milbyfloor.JPG" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/floors/churchhillfloor01.jpg" height="140px" width="auto" onclick="currentSlide(1,1)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/floors/milbyfloor.JPG" height="140px" width="auto" onclick="currentSlide(2,1)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Stenciled and Glazed Floors</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/othersurfaces/ramseyfloor.jpg" height="auto" width="200px" onclick="openModal(2);currentSlide(1,2)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery2" class="modal">
+			<span class="close cursor" onclick="closeModal(2)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery2">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/othersurfaces/ramseyfloor.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,2)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/othersurfaces/ramseyfloor.jpg" height="140px" width="auto" onclick="currentSlide(1,2)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Painted Wood Floors</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/magraw/magraw08.jpg" height="auto" width="200px" onclick="openModal(3);currentSlide(1,3)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery3" class="modal">
+			<span class="close cursor" onclick="closeModal(3)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery3">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/magraw/magraw08.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,3)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,3)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/magraw/magraw08.jpg" height="140px" width="auto" onclick="currentSlide(1,3)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Painted Concrete</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/services/tricolorfloor.jpg" height="auto" width="200px" onclick="openModal(4);currentSlide(1,4)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery4" class="modal">
+			<span class="close cursor" onclick="closeModal(4)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery4">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/services/tricolorfloor.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,4)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,4)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/services/tricolorfloor.jpg" height="140px" width="auto" onclick="currentSlide(1,4)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Laminate Floors</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/feliciano/felicianolaminate03.JPG" height="auto" width="200px" onclick="openModal(5);currentSlide(1,5)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery5" class="modal">
+			<span class="close cursor" onclick="closeModal(5)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery5">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/feliciano/felicianolaminate03.JPG" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,5)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,5)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/feliciano/felicianolaminate03.JPG" height="140px" width="auto" onclick="currentSlide(1,5)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Tiled Floors</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/feliciano/felicianotile03.jpg" height="auto" width="200px" onclick="openModal(6);currentSlide(1,6)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery6" class="modal">
+			<span class="close cursor" onclick="closeModal(6)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery6">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/feliciano/felicianotile03.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,6)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,6)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/feliciano/felicianotile03.jpg" height="140px" width="auto" onclick="currentSlide(1,6)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Plain Stripes</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/hooff/hooffdrstripes05.jpg" height="auto" width="200px" onclick="openModal(7);currentSlide(1,7)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery7" class="modal">
+			<span class="close cursor" onclick="closeModal(7)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery7">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/hooff/hooffdrstripes05.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,7)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,7)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/hooff/hooffdrstripes05.jpg" height="140px" width="auto" onclick="currentSlide(1,7)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Glazed Stripes</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/wallart/holdenstripes01.JPG" height="auto" width="200px" onclick="openModal(8);currentSlide(1,8)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery8" class="modal">
+			<span class="close cursor" onclick="closeModal(8)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery8">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/wallart/holdenstripes01.JPG" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,8)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,8)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/wallart/holdenstripes01.JPG" height="140px" width="auto" onclick="currentSlide(1,8)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Sculpted Diamond Walls</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/wallart/3dDiamond.jpg" height="auto" width="200px" onclick="openModal(9);currentSlide(1,9)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery9" class="modal">
+			<span class="close cursor" onclick="closeModal(9)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery9">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/wallart/3dDiamond.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,9)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,9)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/wallart/3dDiamond.jpg" height="140px" width="auto" onclick="currentSlide(1,9)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Sculpted Drywall</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/services/sculptedwall.jpg" height="200px" width="auto" onclick="openModal(10);currentSlide(1,10)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery10" class="modal">
+			<span class="close cursor" onclick="closeModal(10)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery10">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/services/sculptedwall.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,10)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,10)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/services/sculptedwall.jpg" height="140px" width="auto" onclick="currentSlide(1,10)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Tuscan Walls</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/wilkins/Wilkins10.jpg" height="auto" width="200px" onclick="openModal(11);currentSlide(1,11)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery11" class="modal">
+			<span class="close cursor" onclick="closeModal(11)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery11">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/wilkins/Wilkins10.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,11)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,11)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/wilkins/Wilkins10.jpg" height="140px" width="auto" onclick="currentSlide(1,11)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Metallic Glazed Walls</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/services/metallicwall01.jpg" height="200px" width="auto" onclick="openModal(12);currentSlide(1,12)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery12" class="modal">
+			<span class="close cursor" onclick="closeModal(12)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery12">
+		<div class="numbertext">1 / 1</div>
+			<img src="images/projects/services/metallicwall01.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,12)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,12)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/services/metallicwall01.jpg" height="140px" width="auto" onclick="currentSlide(1,12)" alt="">
+		</div>
+		</div>
+		</div>
+					<br />
+					<hr />
+					<br />
+					<h2>Cabinets</h2><br />
+					<i>Click on one of the images to open the photo gallery:</i><br />
+					<br />
+		<div class="row">
+		<div class="column">
+			<img src="images/projects/services/tiledpaintedcab03.jpg" height="auto" width="200px" onclick="openModal(13);currentSlide(1,13)" class="hover-shadow">
+		</div>
+		<div class="column">
+			<img src="images/projects/services/tiledpaintedcab01.jpg" height="auto" width="200px" onclick="openModal(13);currentSlide(2,13)" class="hover-shadow">
+		</div>
+		</div>
+		<div id="servicegallery13" class="modal">
+			<span class="close cursor" onclick="closeModal(13)">&times;</span>
+		<div class="modal-content">
+		<div class="mySlides gallery13">
+		<div class="numbertext">1 / 2</div>
+			<img src="images/projects/services/tiledpaintedcab03.jpg" height="600px" width="auto">
+		</div>
+				<div class="mySlides gallery13">
+		<div class="numbertext">2 / 2</div>
+			<img src="images/projects/services/tiledpaintedcab01.jpg" height="600px" width="auto">
+		</div>
+		<a class="prev" onclick="plusSlides(-1,13)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1,13)">&#10095;</a>
+		<div class="caption-container">
+			<p id="caption"></p>
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/services/tiledpaintedcab03.jpg" height="140px" width="auto" onclick="currentSlide(1,13)" alt="">
+		</div>
+		<div class="column">
+			<img class="demo" src="images/projects/services/tiledpaintedcab01.jpg" height="140px" width="auto" onclick="currentSlide(2,13)" alt="">
+		</div>
+		</div>
+		</div>
+				</div>
+			</div>
+			</div>
+	
+			<div class="Footer Wrapper">
+				<p>
+				<br />
+				© 2009-2017 | Surface Elegance
+				<br />
+				Website created by Brittney Oftedahl
+				<p>
+				<br />
+			</div>
+
+	</body>
+</html>	
